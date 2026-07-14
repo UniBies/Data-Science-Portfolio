@@ -4,4 +4,4 @@ In this repository the goal is to show my learning path on how to become a data 
 
 
 ## Table of content
-* SQL
+* [SQL]
