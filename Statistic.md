@@ -3,4 +3,4 @@
 ## Badania eksploracyjne
 
 ### Kluczowe pojęcia dotyczące typów danych
-*Numeryczne: Dane wyrażane w skali numerycznej
+* Numeryczne: Dane wyrażane w skali numerycznej
