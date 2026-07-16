@@ -9,3 +9,5 @@
 * **Skategoryzowane**: Dane, które mogą przyjmować jedynie wartości z konkretnego zbioru, reprezentującego możliwe kategorie
   * `Binarne`: Szczególny przypadek danych skategoryzowanych z dwoma wartościami np. 0/1, true/false
   * `Porządkowe`: Dane skategoryzowane według wprowadzonego porzadku.
+
+**Określenie typu danych w oprogramowaniu jest sygnałem dla niego, w jaki sposób dane mają być przetwarzane.**
