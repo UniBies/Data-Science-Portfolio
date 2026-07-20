@@ -56,3 +56,11 @@
 * `SELECT` * `FROM` table_name `ORDER BY` column;
 * `SELECT` * `FROM` table_name `ORDER BY` column `DESC`;
 * `SELECT` * `FROM` table_name `ORDER BY` column `ASC`, column_1 `DESC`;
+
+#### **TOP**: used to specify the number of records to return from top of table
+
+* `SELECT TOP` number * `FROM` table_name `WHERE` condition
+* `SELECT TOP` NUMBER * `FROM` table_name `ORDER BY` column
+
+* !! Not all databes systems supports `TOP`. In MySQL there is `LIMIT`
+* `SELECT` * `FROM` table_name `LIMIT` offset, count
