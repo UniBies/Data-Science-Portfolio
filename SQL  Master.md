@@ -11,7 +11,7 @@
 
 ### Filtering Data
 
-### **WHERE**: used for filtering data
+#### **WHERE**: used for filtering data
 * `SELECT` * `FROM` table_name <br>
   `WHERE` column_name = 'condition';
   
@@ -35,3 +35,15 @@
 
 * `SELECT` * `FROM` table_name <br>
   `WHERE` column_name_1 `<>` 'condition';
+
+#### **LIKE**: filter data by searching for specific pattern in column
+* `%` is a wildcard character that represents zero, one, or multiple characters
+* `_` is a wildcard character that represents a single character
+* `SELECT` column_name `FROM` table_name <br>
+  `WHERE` column_name `LIKE` pattern;
+* `LIKE` 'a%' - find any values that starts with 'a'
+* `LIKE` '%a' - find any values that ends with 'a'
+* `LIKE` '%or%' - find any values that have 'or' in any position
+* `LIKE` '_r%' - find any values that have 'r' in the second position
+* ` LIKE` 'a_%_%' - find any values that starts with 'a' and are at least 3 characters in length
+* `LIKE` '[a-c]%' find any values starting with 'a', 'b' or 'c'
