@@ -7,6 +7,8 @@
 #### **SELECT**: used to select data from a database
 * `SELECT` * `FROM` table_name;
 
+### Filtering Data
+
 ### **WHERE**: used for filtering data
 * `SELECT` * `FROM` table_name <br>
   `WHERE` column_name = 'condition';
