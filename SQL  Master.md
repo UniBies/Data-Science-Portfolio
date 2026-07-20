@@ -11,5 +11,6 @@
 * `SELECT` * `FROM` table_name <br>
   `WHERE` column_name = 'condition';
   
-* `SELECT` * `FROM` table_name
+* `SELECT` * `FROM` table_name <br>
+  `WHERE` column_name1 = 'condition1' `AND` column_name2 = 'condition2';
   
