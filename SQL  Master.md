@@ -67,3 +67,13 @@
 
 * !! Not all databes systems supports `TOP`. In MySQL there is `LIMIT`
 * `SELECT` * `FROM` table_name `LIMIT` offset, count
+
+### FUNCTIONS
+
+#### **CONCAT()**: used to combine columns into one
+
+* `SELECT` `CONCAT`(column_1, ' ', column_2)
+
+#### **LEFT()**: extract characters from a string starting from left
+
+* `SELECT` `LEFT`(column_name, number_of_characters) `FROM` table_name
