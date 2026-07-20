@@ -8,5 +8,7 @@
 * `SELECT` * `FROM` table_name;
 
 ### **WHERE**: used for filtering data
-* `SELECT` * `FROM` table_name
+* `SELECT` * `FROM` table_name <br>
   `WHERE` column_name = 'condition';
+* `SELECT` * `FROM` table_name
+  
