@@ -12,5 +12,5 @@
   `WHERE` column_name = 'condition';
   
 * `SELECT` * `FROM` table_name <br>
-  `WHERE` column_name1 = 'condition1' `AND` column_name2 = 'condition2';
+  `WHERE` column_name_1 = 'condition_1' `AND` column_name_2 = 'condition_2';
   
