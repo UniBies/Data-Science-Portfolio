@@ -30,6 +30,9 @@
   `WHERE` column_name_1 `IN` ('condition_1', 'condition_2', 'condition_3');
 
 * `SELECT` * `FROM` table_name <br>
+  `WHERE` column_name_1 `IN` (`SELECT STATEMENT` ...)
+
+* `SELECT` * `FROM` table_name <br>
   `WHERE` column_name_1 `IS NULL`;
 
 * `SELECT` * `FROM` table_name <br>
