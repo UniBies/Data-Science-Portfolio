@@ -5,6 +5,7 @@
 ### Finding Data Queries
 
 #### **SELECT**: used to select data from a database
+
 * `SELECT` * `FROM` table_name;
   
 * `SELECT DISTINCT` * `FROM` table_name;
@@ -12,6 +13,7 @@
 ### Filtering Data
 
 #### **WHERE**: used for filtering data
+
 * `SELECT` * `FROM` table_name <br>
   `WHERE` column_name = 'condition';
   
@@ -37,6 +39,7 @@
   `WHERE` column_name_1 `<>` 'condition';
 
 #### **LIKE**: filter data by searching for specific pattern in column
+
 * `%` is a wildcard character that represents zero, one, or multiple characters
 * `_` is a wildcard character that represents a single character
 * `SELECT` column_name `FROM` table_name <br>
@@ -47,3 +50,9 @@
 * `LIKE` '_r%' - find any values that have 'r' in the second position
 * ` LIKE` 'a_%_%' - find any values that starts with 'a' and are at least 3 characters in length
 * `LIKE` '[a-c]%' find any values starting with 'a', 'b' or 'c'
+
+#### **ORDER BY**: used to order data in column in ascending or descending order
+
+* `SELECT` * `FROM` table_name `ORDER BY` column;
+* `SELECT` * `FROM` table_name `ORDER BY` column `DESC`;
+* `SELECT` * `FROM` table_name `ORDER BY` column `ASC`, column_1 `DESC`;
