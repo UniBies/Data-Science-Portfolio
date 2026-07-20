@@ -6,6 +6,8 @@
 
 #### **SELECT**: used to select data from a database
 * `SELECT` * `FROM` table_name;
+  
+* `SELECT DISTINCT` * `FROM` table_name;
 
 ### Filtering Data
 
@@ -24,3 +26,12 @@
 
 * `SELECT` * `FROM` table_name <br>
   `WHERE` column_name_1 `IN` ('condition_1', 'condition_2', 'condition_3');
+
+* `SELECT` * `FROM` table_name <br>
+  `WHERE` column_name_1 `IS NULL`;
+
+* `SELECT` * `FROM` table_name <br>
+  `WHERE` column_name_1 `IS NOT NULL`;
+
+* `SELECT` * `FROM` table_name <br>
+  `WHERE` column_name_1 `<>` 'condition';
