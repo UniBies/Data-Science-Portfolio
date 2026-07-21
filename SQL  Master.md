@@ -148,6 +148,16 @@
 
 * `SELECT` `DATEADD`(interval, number, column) `FROM` table_name;
 
+#### **DATEDIFF()**: returns the difference between two dates, as an iteger
+
+* `SELECT` `DATEDIFF`(interval, date1, date2);
+
+#### **CAST()**: converts a value of any type into specified datatype
+
+* `SELECT` `CAST`(value `AS` datatype);
+* `SELECT` `CAST`(10.45 `AS` DECIMAL);
+* `SELECT` `CAST`("2017-08-29" AS DATE);
+
 
 
 
