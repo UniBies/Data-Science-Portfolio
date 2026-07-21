@@ -92,6 +92,43 @@
 * `SELECT` column `FROM` table_name <br>
   `WHERE` `LEN`(column_name) = 'condition';
 
+#### **REPLACE()**: replace character
+
+* `SELECT` `REPLACE`(column, 'a', 'b') `FROM` table_name;
+
+#### **UPPER()**: change string into uppercase
+
+* `SELECT` `UPPER`(column) `FROM` table_name;
+
+#### **LOWER()**: change string into lowercase
+
+* `SELECT` `LOWER`(column) `FROM` table_name;
+
+#### **LTRIM()**: remove spaces from a left side of string
+
+* `SELECT` `LTRIM`('   string')
+
+#### **RTRIM()**: remove spaces from a right side of string
+
+* `SELECT` `RTRIM`('string    ')
+
+#### **ROUND()**: rounds up number 
+
+* `SELECT` `ROUND`(number, number_of_decimal_places);
+
+#### **FLOOR()**: rounds down to whole number 
+
+* `SELECT` `FLOOR`(2,999) ---> 2
+
+#### **CEILING()** rounds up to whole number
+
+* `SELECT` `CEILING`(2,001) ----> 3
+
+
+
+
+
+
 
 
 
