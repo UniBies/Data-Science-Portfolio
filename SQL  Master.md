@@ -136,6 +136,22 @@
 * `SELECT` `MONTH`('2017/08/25') `AS` Month; ----> 08
 * `SELECT` `YEAR`('2017/08/25') `AS` Year; ---> 2017
 
+#### **GETDATE()**: return current database system date and time
+
+* `SELECT` `GETDATE()`;
+
+#### **DATEPART()**: return a specified part of date:
+
+* `SELECT` `DATEPART`(year, column) `FROM` table_name;
+
+#### **DATEADD()**: adds a time/date interval to a date and then returns the date
+
+* `SELECT` `DATEADD`(interval, number, column) `FROM` table_name;
+
+
+
+
+
 
 
 
