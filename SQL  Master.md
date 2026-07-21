@@ -130,6 +130,11 @@
 * `SELECT` `SQRT`(number)
 * `SELECT` `PI`() 
 
+#### **DAY()**, **MONTH()**, **YEAR()**: returns a part of a date
+
+* `SELECT` `DAY`('2017/08/25') `AS` Day; ---> 25
+* `SELECT` `MONTH`('2017/08/25') `AS` Month; ----> 08
+* `SELECT` `YEAR`('2017/08/25') `AS` Year; ---> 2017
 
 
 
