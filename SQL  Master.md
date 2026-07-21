@@ -124,6 +124,14 @@
 
 * `SELECT` `CEILING`(2,001) ----> 3
 
+#### **POWER()**, **SQRT()**, **PI()**: mathematical operations
+
+* `SELECT` `POWER`(number, power)
+* `SELECT` `SQRT`(number)
+* `SELECT` `PI`() 
+
+
+
 
 
 
