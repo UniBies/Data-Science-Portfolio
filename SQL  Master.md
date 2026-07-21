@@ -77,3 +77,21 @@
 #### **LEFT()**: extract characters from a string starting from left
 
 * `SELECT` `LEFT`(column_name, number_of_characters) `FROM` table_name
+
+#### **RIGHT()**: extract characters from a string starting from right
+
+* `SELECT` `RIGHT`(column_name, number_of_characters) `FROM` table_name
+
+#### **SUBSTRING()**: extract characters from a string, starting in position
+
+* `SELECT` `SUBSTRING`(column_name, position, number_of_characters) `FROM` table_name;
+
+#### **LEN()**: return the length of a string
+
+* `SELECT` `LEN`(column_name) `FROM` table_name;
+* `SELECT` column `FROM` table_name <br>
+  `WHERE` `LEN`(column_name) = 'condition';
+
+
+
+
