@@ -164,7 +164,27 @@
 
 #### **AVG()**: calculates mean of a set of values 
 **Remember that avg calculates mean and returns result in the same datatype**
+
 * `SELECT` `AVG`(column) `AS` new_column `FROM` table_name
+
+#### **COUNT()**: function returns the number of records returned by a select query
+
+* `SELECT` `COUNT`(column) `AS` new_column `FROM` table_name
+
+### Grouping data
+
+#### **GROUP BY**: command is used to group the result set (used with aggregate functions: COUNT, MIN, MAX, SUM, AVG)
+
+* `SELECT` `COUNT`(column), column2 <br>
+  `FROM` table_name <br>
+  `GROUP BY` column2
+
+#### **HAVING**: command is used instead of WHERE with aggregate functions
+
+* `SELECT` `COUNT`(column), column2 <br>
+  `FROM` table_name
+  `GROUP BY` column2
+  `HAVING` `COUNT`(column) > condition
 
 
 
