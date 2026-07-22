@@ -162,6 +162,9 @@
 
 * `SELECT` `SUM`(column) `AS` new_column `FROM` table_name
 
+#### **AVG()**: calculates mean of a set of values 
+**Remember that avg calculates mean and returns result in the same datatype**
+* `SELECT` `AVG`(column) `AS` new_column `FROM` table_name
 
 
 
