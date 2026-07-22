@@ -158,6 +158,10 @@
 * `SELECT` `CAST`(10.45 `AS` DECIMAL);
 * `SELECT` `CAST`("2017-08-29" AS DATE);
 
+#### **SUM()**: function calculates the sum of a set of values.
+
+* `SELECT` `SUM`(column) `AS` new_column `FROM` table_name
+
 
 
 
